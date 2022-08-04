@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title> Sign in and sign up page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form accept="#">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fa fa-car"></i>facebook</a>
+                        <a href="#" class="social"><i class="fa fa twitter"></i>twitter</a>
+                        <a href="#" class="social"><i class="fa fa instagram"></i>instagram</a>
+                    </div>
+                    <span>or you can use your email for registration</span>
+                    <div class="field">
+                        <input type="text" placeholder="Name">
+                        <label></label>
+                    </div>  
+                    <div class="field">
+                        <input type="password" placeholder="Password">
+                        <label></label>
+                    </div>  
+                    <div class="field">
+                        <input type="email" placeholder="Email" name="Email">
+                        <label></label>
+                    </div>  
+                    <button>Sign Up</button>                         
+                </form>
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1>Sign In</h1>
+                        <div class="social-container">
+                            <a href="#" class="social"><i class="fab fa facebook"></i>facebook</a>
+                            <a href="#" class="social"><i class="fab fa facebook"></i>twitter</a>
+                            <a href="#" class="social"><i class="fab fa facebook"></i>instagram</a>
+                        </div>
+                        <span>or use your account</span>
+                        <div class="field">
+                            <input type="text" placeholder="name">
+                            <label></label>
+                        </div>  
+                        <div class="field">
+                            <input type="password" placeholder="Password">
+                            <label></label>
+                        </div>  
+                        <a href="#" class="forgot">Forgot your password</a>
+                        <button>Sign in</button>
+                    </form> 
+                </div>
+
+
+
+
+                <div class="overlay-container" id="overlayCont">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>Welcome back</h1>
+                            <p>To keep connected with us please login with personal info</p>
+                            <button>Sign In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>Hello, friend</h1>
+                            <p>Enter your personal details and start journey with us</p>
+                            <button>Sign Up</button>
+                        </div>
+                        <button id="overlayBtn"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script type="text/javascript" src="Js.js"></script>
+    </body>
+</html>
